@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euxo pipefail
 ###############################################################################
 # This script removes unneeded files and libraries, including log files and snaps.
 # I originally created it to combat the /var directory filling up (when on a
